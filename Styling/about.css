@@ -19,14 +19,17 @@ nav ul li a {
 h1{
     color: white;
     font-family: Arial, sans-serif;
+    text-align: center;
 }
 h2{
     color: white;
     font-family: Arial, sans-serif;
+    text-align: center;
 }
 p{
     color: white;
     font-family: Arial, sans-serif;
+    text-align: center;
 }
 footer p {
     color: white;
