@@ -1,3 +1,40 @@
 body {
-    background: #187;
+    background: #179;
+}
+h1 {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+marquee {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+details p {
+    color: white;
+    text-align: center;
+}
+address {
+    color: white;
+    text-align: center;
+}
+summary {
+    color: white;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a[href^="tel"] {
+    display: block;
+    text-align: center;
+    color: white;
+}
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
