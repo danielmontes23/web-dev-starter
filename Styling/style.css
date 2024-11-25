@@ -11,15 +11,13 @@ marquee {
     color: white;
     text-align: center;
 }
-details p {
+p {
+    font-family: Arial, sans-serif;
     color: white;
     text-align: center;
 }
 address {
-    color: white;
-    text-align: center;
-}
-summary {
+    font-family: Arial, sans-serif;
     color: white;
     text-align: center;
 }
@@ -32,24 +30,20 @@ a[href^="tel"] {
     display: block;
     text-align: center;
     color: white;
-}
-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: Arial, sans-serif;
 }
 nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
+    font-family: Arial, sans-serif;
 }
-
 nav ul li {
     display: inline;
     margin: 0 10px;
 }
-
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-family: Arial, sans-serif;
 }
