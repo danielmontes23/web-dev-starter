@@ -1,39 +1,62 @@
-body{
-    background: #179;
+body {
+    background-color: #179;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
     font-family: Arial, sans-serif;
 }
+
 nav ul li {
     display: inline;
     margin: 0 10px;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
     font-family: Arial, sans-serif;
 }
-h1{
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header {
     text-align: center;
+    padding: 20px 0;
+    background-color: #555;
+}
+
+h1, h2, p {
     color: white;
     font-family: Arial, sans-serif;
+    text-align: center;
 }
-h2{
-    color: white;
-    font-family: Arial, sans-serif;
+
+main {
+    padding: 20px;
+    text-align: center;
 }
-p{
-    color: white;
-    font-family: Arial, sans-serif;
+
+footer {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
 }
+
 footer p {
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
 }
+
 form {
     display: flex;
     flex-direction: column;
@@ -66,15 +89,13 @@ form button {
 form button:hover {
     background-color: #004d99;
 }
-p{
+
+details {
     color: white;
     text-align: center;
 }
-details{
-    color: white;
-    text-align: center;
-}
-summary{
+
+summary {
     font-family: Arial, sans-serif;
     color: white;
     text-align: center;
